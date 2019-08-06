@@ -13,6 +13,6 @@ document.getElementById("form1").onsubmit = function () {
 	document.getElementById("puntaje").innerHTML = result;
 if (result >= 21) {result2 = location.href = ("AMD.html")};
     if (result > 15 && result < 21) {result2 = location.href = ("INTEL.html")};
-    if (result <= 15) {result2 = location.href = ("NVIDIA.html")};
+    if (result == 15 || result < 15) {result2 = location.href = ("NVIDIA.html")};
 return false;
              }
