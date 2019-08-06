@@ -252,7 +252,7 @@ button{
         border-style: inset none;
     border-color: #1D1F23;
     border-radius: 20px; 
-    transform: translateY(70px);
+    transform: translateY(50px);
 }
 #github {
        float: left;
@@ -265,5 +265,5 @@ button{
     border-color: #1D1F23;
     border-radius: 20px; 
     transform: translate(250px);
-    transform: translateY(70px);
+    transform: translateY(50px);
 }
