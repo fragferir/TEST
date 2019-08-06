@@ -10,9 +10,7 @@ document.getElementById("form1").onsubmit = function () {
        calor = parseInt(document.querySelector('input[name = "calor"]:checked').value);
        error = parseInt(document.querySelector('input[name = "error"]:checked').value);
 	   result = componente + fecha + arquitectura + color + avara + cmp + productos + aprovecha + calor + error;
-	   
-	document.getElementById("grade").innerHTML = result;
-
+	document.getElementById("puntaje").innerHTML = result;
 if (result >= 21) {result2 = location.href = ("AMD.html")};
     if (result > 15 && result < 21) {result2 = location.href = ("INTEL.html")};
     if (result <= 15) {result2 = location.href = ("NVIDIA.html")};
