@@ -11,8 +11,8 @@ document.getElementById("form1").onsubmit = function () {
        error = parseInt(document.querySelector('input[name = "error"]:checked').value);
 	   result = componente + fecha + arquitectura + color + avara + cmp + productos + aprovecha + calor + error;
 	document.getElementById("puntaje").innerHTML = result;
-if (result >= 21) {result2 = location.href = ("AMD.html")};
-    if (result > 15 && result < 21) {result2 = location.href = ("INTEL.html")};
-    if (result == 15 || result < 15) {result2 = location.href = ("NVIDIA.html")};
+if (result >= 20) {result2 = location.href = ("AMD.html")};
+    if (result > 16 && result < 20) {result2 = location.href = ("INTEL.html")};
+    if (result <= 16 ) {result2 = location.href = ("NVIDIA.html")};
 return false;
              }

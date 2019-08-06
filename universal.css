@@ -64,13 +64,13 @@ body{
     font-size: 20px;
     background-color: #121212;
     text-decoration-color: darkgoldenrod;
-    width: 140px;
-    border: 9px;
+    width: 200px;
+    border: 2px;
     border-style: inset none;
     border-color: #1D1F23;
     border-radius: 99px;
-    transform: translate(530px);
-    margin-bottom: 60px;
+    transform: translate(520px);
+    margin-bottom: 50px;
 }
 .amd {
     font-family:AMD;
@@ -132,12 +132,13 @@ a {
 #texto3{
     background-color: #121212;
     color: white;
-    text-align: center;
-    width: 450px;
-    border: 9px;
+    width: 700px;
+    border: 1px;
     border-style: inset none;
     border-color: #1D1F23;
     border-radius: 20px;
+    font-size: 12px;
+    padding-left: 5px;
 }
 .preguntas{
         background-color: #121212;
@@ -231,17 +232,39 @@ button{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
-.footer {
-            background-color: #121212;
+#footerb {
+    background-color: #121212;
     color: white;
-    text-align: center;
-    width: 800px;
+    width: 175px;
     padding-left: 10px;
-    border: 4px;
+    border: 1px;
     border-style: inset none;
     border-color: #1D1F23;
-    border-radius: 20px;
-    margin-bottom: 1px;
-    font-size: 10px;
-    transform: translate(200px);
+    border-radius: 20px;    
+    font-size: 15px;
+}
+#nya {
+    float: left;
+    background-color: #121212;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+        border-style: inset none;
+    border-color: #1D1F23;
+    border-radius: 20px; 
+    transform: translateY(70px);
+}
+#github {
+       float: left;
+    background-color: #121212;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 9px;
+    border-style: inset none;
+    border-color: #1D1F23;
+    border-radius: 20px; 
+    transform: translate(250px);
+    transform: translateY(70px);
+    margin-left: 870px;
 }
