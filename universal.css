@@ -231,3 +231,17 @@ button{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
+.footer {
+            background-color: #121212;
+    color: white;
+    text-align: center;
+    width: 800px;
+    padding-left: 10px;
+    border: 4px;
+    border-style: inset none;
+    border-color: #1D1F23;
+    border-radius: 20px;
+    margin-bottom: 1px;
+    font-size: 10px;
+    transform: translate(200px);
+}
